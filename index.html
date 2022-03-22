@@ -3,225 +3,253 @@
 
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BENS89J6B9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BENS89J6B9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-BENS89J6B9', { 'anonymize_ip': true });
-  </script><!--end of Global site tag (gtag.js) - Google Analytics-->
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-<script src="https://kit.fontawesome.com/fa68d01b0f.js" crossorigin="anonymous"></script>  
-<script src="https://kit.fontawesome.com/fa68d01b0f.js" crossorigin="anonymous"></script>
-  <meta charset="utf-8">
-  <!-- device width scaling -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- font Style -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <!-- add normalize below -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <!-- add your style.css file below that's in the css directory -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- adding favicon -->
-  <link href="img/favicon.png" rel="shortcut icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>I'm a UX/UI Researcher based in Frankfurt, Germany </title>
+        gtag('config', 'G-BENS89J6B9', {
+            'anonymize_ip': true
+        });
+    </script>
+    <!--end of Global site tag (gtag.js) - Google Analytics-->
+
+    <script src="https://kit.fontawesome.com/fa68d01b0f.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <!-- device width scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- add normalize below -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <!-- add your style.css file below that's in the css directory -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- adding favicon -->
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>I'm a UX/UI Researcher based in Frankfurt, Germany </title>
 </head>
 
 <body>
-  <!-- For the header -->
-  <header>
-    <!-- For the navigation -->
-    <div class="container">
-      <div class="navtoggle" id="myNavtoggle">
-        <div class="logo-size">
-          <img src="img/sitelogo.png" alt="Site Logo" class="logo">
-          <nav>
-            <ul>
-              <li class="parent"><a href="index.html">Work</a>
-                <ul class="dropdown-content">
-                  <li><a href="fintrac.html">FinTrac</a></li>
-                  <li><a href="waveaccounting.html">Wave Accounting</a></li>
-                  <li><a href="skillmaster.html">SkillMaster</a></li>
-                  <li><a href="wordguru.html">Word Guru</a></li>
+    <!-- For the header -->
+    <header>
+        <!-- For the navigation -->
+        <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+                <div class="logo-size">
+                    <img src="img/sitelogo.png" alt="Site Logo" class="logo">
+                    <nav>
+                        <ul>
+                            <li class="parent"><a href="index.html">Work</a>
+                                <ul class="dropdown-content">
+                                    <li><a href="fintrac.html">FinTrac</a></li>
+                                    <li><a href="waveaccounting.html">Wave Accounting</a></li>
+                                    <li><a href="skillmaster.html">SkillMaster</a></li>
+                                    <li><a href="wordguru.html">Word Guru</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- For the hero section -->
+        <div id="hero">
+            <div class="container">
+                <div id="herotext">
+                    <h1>Hi, My Name is Benjamin Nyaoro</h1>
+                    <h4>
+                        I'm a UX researcher with extensive experience in finance, accounting and auditing based in Frankfurt am Main area, Germany. I stand at the crosssection of finance and technology leveraging on my knowledge and experience in both fields to create designs
+                        that aim to address user pain ponits. If Fintech was a person, that would be me.
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- For your work/projects -->
+
+        <div id="work">
+
+            <div class="container">
+
+                <div id="skillstools">
+                    <h2>My Work</h2>
+                </div>
+
+                <div class="row">
+                    <!-- open row that holds (2) columns for project 2 -->
+                    <div class="reverseimg">
+                        <div class="column col-md-6 col-lg-7">
+                            <!-- open first column (used for image) -->
+                            <picture>
+                                <source srcset="img/fintrac/coverimage_2x.jpg" media="(max-width:767px)">
+                                <img src="img/fintrac/coverimage_2x.jpg" alt="My Image">
+                            </picture>
+                        </div>
+                        <!-- end first column -->
+                    </div>
+                    <div class="column col-md-6 col-lg-5">
+
+                        <!-- open second column (used for text) -->
+                        <h3>FinTrac</h3>
+                        <!-- heading for the project -->
+                        <p>
+                            <!-- open paragraph -->
+                            A financial management app that enables its users to manage all their bank and credit card balances and all transactions in one place.
+                        </p>
+                        <!-- end paragraph -->
+                        <a href="fintrac.html" class="button">View Case Study
+              <div class="button__horizontal"></div>
+              <div class="button__vertical"></div>
+            </a>
+                        <!-- button or link label -->
+                    </div>
+                    <!-- end second column -->
+                </div>
+                <!-- end row that holds (2) columns for project 2 -->
+
+                <div class="row">
+
+                    <!-- open row that holds (2) columns for project 1 -->
+                    <div class="column col-md-6 col-lg-7">
+                        <!-- open first column (used for image) -->
+                        <picture>
+                            <source srcset="img/waveaccounting/coverimage_2x.jpg" media="(max-width:767px)">
+                            <img src="img/waveaccounting/coverimage_2x.jpg" alt="My Image">
+                        </picture>
+                    </div>
+                    <!-- end first column -->
+                    <div class="column col-md-6 col-lg-5">
+                        <!-- open second column (used for text) -->
+                        <h3>Wave Accounting</h3>
+                        <!-- heading for the project 1 -->
+                        <h4>An Unsolicited Design</h4>
+                        <!-- heading for the project 1 -->
+                        <p>
+                            <!-- open paragraph -->
+                            Bill upload feature, the much awaited catalyst to enhance digitization of accounting process.
+                        </p>
+                        <!-- end paragraph -->
+                        <a href="waveaccounting.html" class="button">View Case Study</a>
+                        <!-- button or link label -->
+                    </div>
+                    <!-- end second column -->
+                </div>
+                <!-- end row that holds (2) columns for project 1 -->
+
+
+                <div class="row">
+                    <!-- open row that holds (2) columns for project 2 -->
+                    <div class="reverseimg">
+                        <div class="column col-md-6 col-lg-7">
+                            <!-- open first column (used for image) -->
+                            <picture>
+                                <source srcset="img/skillmaster/coverimage_2x.jpg" media="(max-width:767px)">
+                                <img src="img/skillmaster/coverimage_2x.jpg" alt="My Image">
+                            </picture>
+                        </div>
+                        <!-- end first column -->
+                    </div>
+                    <div class="column col-md-6 col-lg-5">
+
+                        <!-- open second column (used for text) -->
+                        <h3>SkillMaster</h3>
+                        <!-- heading for the project -->
+                        <p>
+                            <!-- open paragraph -->
+                            An online learning platform that gives accountants an opportunity to learn, share and grow their digital accounting skills.
+                        </p>
+                        <!-- end paragraph -->
+                        <a href="skillmaster.html" class="button">View Case Study
+              <div class="button__horizontal"></div>
+              <div class="button__vertical"></div>
+            </a>
+                        <!-- button or link label -->
+                    </div>
+                    <!-- end second column -->
+                </div>
+                <!-- end row that holds (2) columns for project 2 -->
+
+
+                <div class="row">
+                    <!-- open row that holds (2) columns for project 3 -->
+                    <div class="column col-md-6 col-lg-7">
+                        <!-- open first column (used for image) -->
+                        <picture>
+                            <source srcset="img/wordguru/coverimage_2x.jpg" media="(max-width:767px)">
+                            <img src="img/wordguru/coverimage_2x.jpg" alt="My Image">
+                        </picture>
+                    </div>
+                    <!-- end first column -->
+                    <div class="column col-md-6 col-lg-5">
+                        <!-- open second column (used for text) -->
+                        <h3>Word Guru</h3>
+                        <!-- heading for the project -->
+                        <p>
+                            <!-- open paragraph -->
+                            Offering convenient and memorable learning opportunity to professionals to learn a new language at their own schedule and convenience.
+                        </p>
+                        <!-- end paragraph -->
+                        <a href="wordguru.html" class="button">View Case Study</a>
+                        <!-- button or link label -->
+
+                    </div>
+                    <!-- end second column -->
+                </div>
+                <!--End of row-->
+            </div>
+            <!--End of class container-->
+        </div>
+        <!--End of work container-->
+    </main>
+
+    <!-- For the footer  -->
+    <div class="row"></div>
+
+    <footer>
+        <div id="contact">
+
+            <div class="container">
+                <div id="footertext">
+                    <h2>Get in touch</h2>
+                    <div class="row">
+                        <a href="bnyaoro@gmail.com" target="_blank" class="button contact">Email Me</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <ul class="social-network social-circle">
+                    <li><a href="https://www.behance.net/benjaminnyaoro" target="_blank" class="icobehance" title="behance"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="https://github.com/Ben-Nyaoro" target="_blank" class="icogithub" title="github"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/benjamin-nyaoro-342260173/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
-              </li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-            </ul>
-          </nav>
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <!-- For the hero section -->
-    <div id="hero">
-      <div class="container">
-        <div id="herotext">
-          <h1>Hi, My Name is Benjamin Nyaoro</h1>
-          <h4>
-            I'm a UX researcher with extensive experience in finance, accounting and auditing based in Frankfurt am Main area, Germany.
-            I stand at the crosssection of finance and technology leveraging on my knowledge and experience in both fields to create designs
-            that aim to address user pain ponits. If Fintech was a person, that would be me.
-          </h4>
+        <div>
+            <div id="footerp">
+                <p><i class="far fa-copyright"></i> Copyright Benjamin Nyaoro &copy 2022</p>
+            </div>
         </div>
-      </div>
-    </div>
-
-    <!-- For your work/projects -->
-
-    <div id="work">
-
-      <div class="container">
-
-        <div id="skillstools">
-          <h2>My Work</h2>
-        </div>
-
-        <div class="row">
-          <!-- open row that holds (2) columns for project 2 -->
-          <div class="reverseimg">
-            <div class="column col-md-6 col-lg-7">
-              <!-- open first column (used for image) -->
-              <picture>
-                <source srcset="img/fintrac/coverimage_2x.jpg" media="(max-width:767px)">
-                <img src="img/fintrac/coverimage_2x.jpg" alt="My Image">
-              </picture>
-            </div><!-- end first column -->
-          </div>
-          <div class="column col-md-6 col-lg-5">
-
-            <!-- open second column (used for text) -->
-            <h3>FinTrac</h3><!-- heading for the project -->
-            <p>
-              <!-- open paragraph -->
-              A financial management app that enables its users to manage all their bank and credit card balances and all transactions in one place.
-            </p><!-- end paragraph -->
-            <a href="fintrac.html" class="button">View Case Study
-              <div class="button__horizontal"></div>
-              <div class="button__vertical"></div>
-            </a><!-- button or link label -->
-          </div><!-- end second column -->
-        </div><!-- end row that holds (2) columns for project 2 -->
-
-        <div class="row">
-
-          <!-- open row that holds (2) columns for project 1 -->
-          <div class="column col-md-6 col-lg-7">
-            <!-- open first column (used for image) -->
-            <picture>
-              <source srcset="img/waveaccounting/coverimage_2x.jpg" media="(max-width:767px)">
-              <img src="img/waveaccounting/coverimage_2x.jpg" alt="My Image">
-            </picture>
-          </div><!-- end first column -->
-          <div class="column col-md-6 col-lg-5">
-            <!-- open second column (used for text) -->
-            <h3>Wave Accounting</h3><!-- heading for the project 1 -->
-            <h4>An Unsolicited Design</h4><!-- heading for the project 1 -->
-            <p>
-              <!-- open paragraph -->
-              Bill upload feature, the much awaited catalyst to enhance digitization of accounting process.
-            </p><!-- end paragraph -->
-            <a href="waveaccounting.html" class="button">View Case Study</a><!-- button or link label -->
-          </div><!-- end second column -->
-        </div><!-- end row that holds (2) columns for project 1 -->
-
-
-        <div class="row">
-          <!-- open row that holds (2) columns for project 2 -->
-          <div class="reverseimg">
-            <div class="column col-md-6 col-lg-7">
-              <!-- open first column (used for image) -->
-              <picture>
-                <source srcset="img/skillmaster/coverimage_2x.jpg" media="(max-width:767px)">
-                <img src="img/skillmaster/coverimage_2x.jpg" alt="My Image">
-              </picture>
-            </div><!-- end first column -->
-          </div>
-          <div class="column col-md-6 col-lg-5">
-
-            <!-- open second column (used for text) -->
-            <h3>SkillMaster</h3><!-- heading for the project -->
-            <p>
-              <!-- open paragraph -->
-              An online learning platform that gives accountants an opportunity to learn, share and grow their digital accounting skills.
-            </p><!-- end paragraph -->
-            <a href="skillmaster.html" class="button">View Case Study
-              <div class="button__horizontal"></div>
-              <div class="button__vertical"></div>
-            </a><!-- button or link label -->
-          </div><!-- end second column -->
-        </div><!-- end row that holds (2) columns for project 2 -->
-
-
-        <div class="row">
-          <!-- open row that holds (2) columns for project 3 -->
-          <div class="column col-md-6 col-lg-7">
-            <!-- open first column (used for image) -->
-            <picture>
-              <source srcset="img/wordguru/coverimage_2x.jpg" media="(max-width:767px)">
-              <img src="img/wordguru/coverimage_2x.jpg" alt="My Image">
-            </picture>
-          </div><!-- end first column -->
-          <div class="column col-md-6 col-lg-5">
-            <!-- open second column (used for text) -->
-            <h3>Word Guru</h3><!-- heading for the project -->
-            <p>
-              <!-- open paragraph -->
-              Offering convenient and memorable learning opportunity to professionals to learn a new language at their own schedule and convenience.
-            </p><!-- end paragraph -->
-            <a href="wordguru.html" class="button">View Case Study</a><!-- button or link label -->
-
-          </div><!-- end second column -->
-        </div>
-        <!--End of row-->
-      </div>
-      <!--End of class container-->
-    </div>
-    <!--End of work container-->
-  </main>
-
-  <!-- For the footer  -->
-  <div class="row"></div>
-
-  <footer>
-    <div id="contact">
-
-      <div class="container">
-        <div id="footertext">
-          <h2>Get in touch</h2>
-          <div class="row">
-            <a href="bnyaoro@gmail.com" target="_blank" class="button contact">Email Me</a>
-          </div>
-        </div>
-      </div>
-      <div>
-        <ul class="social-network social-circle">
-          <li><a href="https://www.behance.net/benjaminnyaoro" target="_blank" class="icobehance" title="behance"><i class="fab fa-behance"></i></a></li>
-          <li><a href="https://github.com/Ben-Nyaoro" target="_blank" class="icogithub" title="github"><i class="fab fa-github"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/benjamin-nyaoro-342260173/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
-      </div>
-    </div>
-    <div>
-      <div id="footerp">
-        <p><i class="far fa-copyright"></i> Copyright Benjamin Nyaoro &copy 2022</p>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
